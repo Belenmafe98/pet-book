@@ -1,140 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        .Petbook  {
-    font-family: Arial, sans-serif;
-    margin: 0px;
-    padding: 30px;
-    text-align: center;
-    background-color: rgb(165, 238, 238);
-    color: rgb(255, 255, 255);
-}
-.topnav a {
-  float:inherit;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+      .Petbook {
+        font-family: Arial, sans-serif;
+        margin: 0px;
+        padding: 30px;
+        text-align: center;
+        background-color: rgb(165, 238, 238);
+        color: rgb(255, 255, 255);
+      }
+      .topnav a {
+        float: inherit;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
 
-.stories {
-    
-    width: 100px; /* Ancho de la caja lateral */
-    height: 100vh;
-    background-color: #ffffff;
-    color: #fff;
-    margin-top: 5%;
-    padding: 40px;
-    overflow-y: scroll; /* Agregar barra de desplazamiento vertical cuando sea necesario */
-    position: fixed;
-    display: flex;
-            flex-direction: column;
-            align-items: center;
-            float: left;
-            text-align: left;
-}
-.circle1 {
-            width: 50px;
-            height: 50px;
-            border-radius: 100%;
-            overflow: hidden;
-            margin: 10px;
-        }
-        .circle1 img {
-            width: 80px; /* Tamaño de la imagen más pequeña */
-            height: 80px; /* Tamaño de la imagen más pequeña */
-            object-fit: cover;
-        }
-        .Ronaldo {
-  float:inherit;
-  color: #000000;
-  text-align: center;
-  padding: 0px 0px;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: 200;
-  margin-top: -9%;
-}
+      .stories {
+        width: 100px;
+        height: 100vh;
+        background-color: #ffffff;
+        color: #fff;
+        margin-top: 5%;
+        padding: 40px;
+        overflow-y: scroll;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        float: left;
+        text-align: left;
+      }
+      .circle1 {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        overflow: hidden;
+        margin: 10px;
+      }
+      .circle1 img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+      }
+      .Ronaldo {
+        float: inherit;
+        color: #000000;
+        text-align: center;
+        padding: 0px 0px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 200;
+        margin-top: -9%;
+      }
 
-.circle2 {
-            width: 50px;
-            height: 50px;
-            border-radius: 100%;
-            overflow: hidden;
-            margin: 10px;
-        }
-        .circle2 img {
-            width: 80px; /* Tamaño de la imagen más pequeña */
-            height: 80px; /* Tamaño de la imagen más pequeña */
-            object-fit: cover;
-        }
-        .Angustio13 {
-  float:inherit;
-  color: #000000;
-  text-align: center;
-  padding: 0px 0px;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: 200;
-  margin-top: -9%;
-}
-        
-.circle3 {
-            width: 50px;
-            height: 50px;
-            border-radius: 100%;
-            overflow: hidden;
-            margin: 10px;
-        }
-.circle3 img {
-            width: 80px; /* Tamaño de la imagen más pequeña */
-            height: 80px; /* Tamaño de la imagen más pequeña */
-            object-fit: cover;
-        }
-        .SoyUnoMás {
-  float:inherit;
-  color: #000000;
-  text-align: center;
-  padding: 0px 0px;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: 200;
-  margin-top: -9%;
-}
-.publicaciones {
-    display:block;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px; /* Espacio entre las publicaciones */
-}
-.publicacion1 {
-    width: 1000px; /* Ancho de cada publicación */
-    background-color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    margin-left: 28vh;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #494949;
-    text-align: left;
-}
-.publicacion1 img {
-            width: 400px; /* Tamaño de la imagen más pequeña */
-            height: 400px; /* Tamaño de la imagen más pequeña */
-            object-fit: cover;
-        }
+      .circle2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        overflow: hidden;
+        margin: 10px;
+      }
+      .circle2 img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+      }
+      .Angustio13 {
+        float: inherit;
+        color: #000000;
+        text-align: center;
+        padding: 0px 0px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 200;
+        margin-top: -9%;
+      }
 
+      .circle3 {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        overflow: hidden;
+        margin: 10px;
+      }
+      .circle3 img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+      }
+      .SoyUnoMás {
+        float: inherit;
+        color: #000000;
+        text-align: center;
+        padding: 0px 0px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 200;
+        margin-top: -9%;
+      }
+      .publicaciones {
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .publicacion1 {
+        width: 1000px;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        margin-left: 28vh;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #494949;
+        text-align: left;
+      }
+      .publicacion1 img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+      }
     </style>
-</head>
-<body> 
+  </head>
+  <body>
     <div class="Petbook">
-    <h1>Petbook</h1>
+      <h1>Petbook</h1>
 
-    <div class="topnav">
+      <div class="topnav">
         <a class="active" href="#Muro">Home</a>
         <a href="#Perfil">News</a>
         <a href="#Chat">Contact</a>
@@ -143,35 +141,35 @@
 
       <div class="stories">
         <div class="circle1">
-          <img src="Fotos perros/imagenes perros muro/PERRO 1.jpeg">
-           </div>
-           <div class="Ronaldo"><p>Ronaldo223</p></div>
-      <div class="circle2">
-          <img src="Fotos perros/imagenes perros muro/PERRO 2.jpeg">
-    </div>
-    <div class="Angustio13"><p>Angustio13</p></div>
-      <div class="circle3">
-          <img src="Fotos perros/imagenes perros muro/PERRO 3.png">
+          <img src="Fotos perros/imagenes perros muro/PERRO 1.jpeg" />
+        </div>
+        <div class="Ronaldo"><p>Ronaldo223</p></div>
+        <div class="circle2">
+          <img src="Fotos perros/imagenes perros muro/PERRO 2.jpeg" />
+        </div>
+        <div class="Angustio13"><p>Angustio13</p></div>
+        <div class="circle3">
+          <img src="Fotos perros/imagenes perros muro/PERRO 3.png" />
+        </div>
+        <div class="SoyUnoMás"><p>SoyUnoMás</p></div>
       </div>
-      <div class="SoyUnoMás"><p>SoyUnoMás</p></div>
-     </div>
     </div>
     <div class="publicaciones">
-        <div class="publicacion1">
-            <div class="circle1">
-                <img src="Fotos perros/imagenes perros muro/PERRO 1.jpeg">
-                 </div>
-            <img src="Fotos perros/imagenes perros muro/Foto 4.jpeg">
-            <p>Texto de la publicación 1</p>
+      <div class="publicacion1">
+        <div class="circle1">
+          <img src="Fotos perros/imagenes perros muro/PERRO 1.jpeg" />
         </div>
-        <div class="publicacion">
-            <img src="imagen2.jpg" alt="Publicación 2">
-            <p>Texto de la publicación 2</p>
-        </div>
-        <div class="publicacion">
-            <img src="imagen3.jpg" alt="Publicación 3">
-            <p>Texto de la publicación 3</p>
-        </div>
+        <img src="Fotos perros/imagenes perros muro/Foto 4.jpeg" />
+        <p>Texto de la publicación 1</p>
+      </div>
+      <div class="publicacion">
+        <img src="imagen2.jpg" alt="Publicación 2" />
+        <p>Texto de la publicación 2</p>
+      </div>
+      <div class="publicacion">
+        <img src="imagen3.jpg" alt="Publicación 3" />
+        <p>Texto de la publicación 3</p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
